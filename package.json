@@ -8,12 +8,15 @@
     "build": "electron-builder"
   },
   "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "chokidar": "^5.0.0",
     "dotenv": "^16.0.0",
     "electron": "^37.0.0",
     "electron-store": "^10.0.0",
     "systeminformation": "^5.0.0"
   },
   "devDependencies": {
-    "electron-builder": "^26.0.0"
+    "electron-builder": "^26.0.0",
+    "electron-rebuild": "^3.2.9"
   }
 }

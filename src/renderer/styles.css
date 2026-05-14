@@ -1,5 +1,29 @@
+
 body {
     background: #0f1117;
     color: white;
     font-family: Arial;
+    padding: 30px;
+}
+
+.title {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.subtitle {
+    font-size: 14px;
+    margin-top: 0;
+    text-align: center;
+      margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.card {
+    background: #1c1f26;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
 }
