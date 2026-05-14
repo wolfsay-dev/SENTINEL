@@ -1,0 +1,19 @@
+{
+  "name": "sentinelapp",
+  "version": "1.0.0",
+  "description": "Windows security utility",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "electron": "^37.0.0",
+    "electron-store": "^10.0.0",
+    "systeminformation": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.0"
+  }
+}
