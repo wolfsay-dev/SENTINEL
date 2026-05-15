@@ -21,5 +21,3 @@ The node_modules aren't public in this repository, you can install it by this co
 `npm install --save-dev electron-builder`
 
 `npm install chokidar`
-
-`npm install better-sqlite3`
