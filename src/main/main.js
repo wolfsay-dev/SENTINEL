@@ -54,7 +54,7 @@ ipcMain.handle('get-system-info', async () => {
         os: osInfo.distro,
 
         uptime:
-            Math.floor(time.uptime / 3600)
+            Math.floor(time.uptime / 60)
     }
 })
 

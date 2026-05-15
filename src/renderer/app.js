@@ -14,7 +14,7 @@ async function loadSystemInfo() {
         `OS : ${info.os}`
 
     document.getElementById('uptime').innerText =
-        `Uptime : ${info.uptime} hours`
+        `Uptime : ${info.uptime} minutes`
 }
 
 async function loadMalwareCount() {
@@ -28,6 +28,8 @@ async function loadMalwareCount() {
         `Malwares détectés : ${malwareCount}`
 }
 
-loadSystemInfo()
 
+
+
+loadSystemInfo()
 setInterval(loadMalwareCount, 1000)

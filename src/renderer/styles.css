@@ -6,6 +6,10 @@ body {
     padding: 30px;
 }
 
+.header {
+    align-items: center;
+    background: #30343b;
+}
 .title {
     font-size: 75px;
     text-align: center;
