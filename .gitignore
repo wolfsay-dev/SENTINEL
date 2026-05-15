@@ -4,3 +4,4 @@ logs
 .env
 sentinel.db
 sentinel.db
+*.db
